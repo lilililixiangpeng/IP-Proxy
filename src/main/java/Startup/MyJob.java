@@ -9,7 +9,6 @@ import ParseUtils.URLParse;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
-import java.util.stream.Collectors;
 
 /**
  * Created by lixiangpeng on 2018/7/21.
@@ -76,13 +75,12 @@ public class MyJob {
         List<IPMessage> newIPMessages = new ArrayList<>();
 
         for (int i = 0; i < ipMessages1.size(); i++) {
-            String ipType = ipMessages1.get(i).getIPType();
             String ipSpeed = ipMessages1.get(i).getIPSpeed();
 
             ipSpeed = ipSpeed.substring(0, ipSpeed.indexOf('秒'));
             double Speed = Double.parseDouble(ipSpeed);
 
-            if (ipType.equals("HTTPS") && Speed <= 2.0) {
+            if (Speed <= 2.0) {
                 newIPMessages.add(ipMessages1.get(i));
             }
         }

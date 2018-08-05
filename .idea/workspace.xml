@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/Startup/MyJob.java" line="50" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/Startup/MyJob.java" line="49" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/HttpRequest/HttpRequest.java" line="70" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="357dd91b-de1c-405f-90c9-98bf1a7db7e5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ParseUtils/URLFecter.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HttpRequest/HttpRequest.class" afterPath="$PROJECT_DIR$/target/classes/HttpRequest/HttpRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/IPCheck/HttpTests.class" afterPath="$PROJECT_DIR$/target/classes/IPCheck/HttpTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ParseUtils/IPPool.class" afterPath="$PROJECT_DIR$/target/classes/ParseUtils/IPPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Startup/IPStartup.class" afterPath="$PROJECT_DIR$/target/classes/Startup/IPStartup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Startup/MyJob.class" afterPath="$PROJECT_DIR$/target/classes/Startup/MyJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IPCheck/HttpTests.java" afterPath="$PROJECT_DIR$/src/main/java/IPCheck/HttpTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ParseUtils/URLParse.java" afterPath="$PROJECT_DIR$/src/main/java/ParseUtils/URLParse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Startup/MyJob.java" afterPath="$PROJECT_DIR$/src/main/java/Startup/MyJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Resid-config.properties" afterPath="$PROJECT_DIR$/target/classes/Resid-config.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,25 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPStartup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IPStartup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Startup/IPStartup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyJob.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyJob.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Startup/MyJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
-              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="182">
+              <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#598#609#0" expanded="true" />
-                <element signature="e#654#662#0" expanded="true" />
+                <element signature="e#562#573#0" expanded="true" />
+                <element signature="e#618#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,10 +187,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Startup/IPStartup.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/IPUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/ParseUtils/URLParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Startup/MyJob.java" />
         <option value="$PROJECT_DIR$/../Javatest/src/Request/IPUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserAgentUtils/UserAgent.java" />
         <option value="$PROJECT_DIR$/src/main/java/IPCheck/HttpTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Startup/MyJob.java" />
       </list>
     </option>
   </component>
@@ -331,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Javatest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringDemo" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -569,15 +559,16 @@
       <workItem from="1533314021707" duration="20000" />
       <workItem from="1533314060936" duration="3772000" />
       <workItem from="1533368296745" duration="5851000" />
-      <workItem from="1533443633613" duration="2572000" />
+      <workItem from="1533443633613" duration="2722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46124000" />
+    <option name="totallyTimeSpent" value="46274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -592,7 +583,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -645,14 +636,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Startup/MyJob.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
@@ -711,8 +694,8 @@
           <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#609#0" expanded="true" />
-            <element signature="e#654#662#0" expanded="true" />
+            <element signature="e#562#573#0" expanded="true" />
+            <element signature="e#618#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -805,8 +788,8 @@
           <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#598#609#0" expanded="true" />
-            <element signature="e#654#662#0" expanded="true" />
+            <element signature="e#562#573#0" expanded="true" />
+            <element signature="e#618#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1027,18 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Startup/MyJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#609#0" expanded="true" />
-            <element signature="e#654#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IPCheck/HttpTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
@@ -1050,8 +1021,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Startup/IPStartup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Startup/MyJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#573#0" expanded="true" />
+            <element signature="e#618#626#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
