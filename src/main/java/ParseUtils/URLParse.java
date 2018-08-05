@@ -37,7 +37,7 @@ public class URLParse {
 
     //使用本机IP爬取xici代理网站的第一页
     public static List<IPMessage> urlParse(List<IPMessage> ipMessages) {
-        String url = "http://www.xicidaili.com/nn/1";
+        String url = "http://www.xicidaili.com/wn/1";
         String html = HttpRequest.getHtml(url);
 
         //将html解析成DOM结构

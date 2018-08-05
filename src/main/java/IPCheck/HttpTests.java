@@ -1,12 +1,15 @@
 package IPCheck;
 
 import Model.IPMessage;
+import UserAgentUtils.UserAgent;
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -26,37 +29,31 @@ import java.util.logging.Logger;
  * Created by lixiangpeng on 2018/7/21.
  */
 public class HttpTests {
+    private static Logger logger = Logger.getLogger(HttpTests.class.getName());
 
     public static void httpsRequest(List<IPMessage> ipMessages1){
         for (int i = 0;i < ipMessages1.size();i++){
             String ipaddress = ipMessages1.get(i).getIPAddress();
             int port = Integer.parseInt(ipMessages1.get(i).getIPPort());
             try{
-                //创建SSLContext
-                SSLContext sslContext=SSLContext.getInstance("SSL");
-                TrustManager[] tm={new MyX509TrustManager()};
-                //初始化
-                sslContext.init(null, tm, new java.security.SecureRandom());
-                //获取SSLSocketFactory对象
-                SSLSocketFactory ssf=sslContext.getSocketFactory();
-                URL url=new URL("https://www.baidu.com");
-                InetSocketAddress address = new InetSocketAddress(ipaddress,port);
-                Proxy proxy = new Proxy(Proxy.Type.HTTP, address);
-                HttpsURLConnection conn=(HttpsURLConnection)url.openConnection(proxy);
-                conn.setUseCaches(false);
-                conn.setRequestMethod("GET");
-                //设置当前实例使用的SSLSoctetFactory
-                conn.setSSLSocketFactory(ssf);
-                conn.setSSLSocketFactory(sslContext.getSocketFactory());
-                conn.connect();
+                CloseableHttpClient httpClient = HttpClients.createDefault();
+                CloseableHttpResponse response = null;
+                HttpHost proxy = new HttpHost(ipaddress, port);
+                RequestConfig config = RequestConfig.custom().setProxy(proxy).setConnectTimeout(5000).
+                        setSocketTimeout(3000).build();
+                HttpGet httpGet = new HttpGet("https://www.baidu.com");
+                httpGet.setConfig(config);
+                httpGet.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;" +
+                        "q=0.9,image/webp,*/*;q=0.8");
+                httpGet.setHeader("Accept-Encoding", "gzip, deflate, sdch");
+                httpGet.setHeader("Accept-Language", "zh-CN,zh;q=0.8");
+                httpGet.setHeader("User-Agent", UserAgent.GetUserAgent());
+                response = httpClient.execute(httpGet);
 
-                //读取服务器端返回的内容
-                InputStream is=conn.getInputStream();
-                InputStreamReader isr=new InputStreamReader(is,"utf-8");
-                BufferedReader br=new BufferedReader(isr);
             }catch(Exception e){
                 e.printStackTrace();
                 ipMessages1.remove(ipMessages1.get(i));
+                logger.warning(ipMessages1.get(i).getIPAddress()+"不可用！");
                 i--;
             }
         }
